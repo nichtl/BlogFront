@@ -3,21 +3,18 @@
  *
  * Bootstraps Vuetify and other plugins then mounts the App`
  */
-
 // Plugins
-import { registerPlugins } from '@/plugins'
+import {registerPlugins} from '@/plugins'
 // 引入动画库
 import "animate.css"
-
 // Components
 import App from './App.vue'
 
 
 // Composables
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 
 const app = createApp(App)
-
 
 registerPlugins(app)
 const win = window

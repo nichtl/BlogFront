@@ -16,13 +16,13 @@ const links =  [
 </script>
 
 <template>
-  <v-app-bar    scroll-behavior="hide fade-image collapse"
-                image="https://picsum.photos/1920/1080?random">
+  <v-app-bar   height="100px" scroll-behavior="hide fade-image "
+               image="https://picsum.photos/1920/1080?random">
     <template v-slot:prepend>
       <v-app-bar-nav-icon>Nicht</v-app-bar-nav-icon>
     </template>
 
-    <v-container fluid class=" mx-auto d-flex align-center justify-center">
+    <v-container fluid class="mx-auto d-flex align-center justify-center">
 
       <v-avatar
         class="me-4 "
@@ -38,7 +38,6 @@ const links =  [
         to="/tools"
         text="tools"
         variant="text"
-
       ></v-btn>
 
       <v-btn
@@ -50,7 +49,7 @@ const links =  [
 
       <v-spacer></v-spacer>
 
-      <v-responsive max-width="160">
+      <v-responsive max-width="200">
         <v-text-field
           density="compact"
           label="Search"

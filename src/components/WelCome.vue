@@ -1,5 +1,5 @@
 <script setup>
-import {useCommonStore} from '@/stores/commonStore'
+import {useCommonStore} from '@/stores/module/commonStore'
 import {onMounted} from "vue"
 import {useRouter} from "vue-router"
 

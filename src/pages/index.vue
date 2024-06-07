@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<hello-world></hello-world>
+  <hello-world></hello-world>
 </template>
 
 <style scoped lang="sass">

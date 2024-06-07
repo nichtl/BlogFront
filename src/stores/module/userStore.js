@@ -1,7 +1,7 @@
 // Utilities
 import { defineStore } from 'pinia'
 
-export const  useUserStore = defineStore('userStore', {
+export const  userStore = defineStore('userStore', {
   state: () => ({
     token:'',
     loginState:false,

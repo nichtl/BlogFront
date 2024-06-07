@@ -8,13 +8,31 @@
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@kangc/v-md-editor": "^2.3.18",
     "@mdi/font": "7.0.96",
+    "@vuepress/markdown": "^1.8.2",
     "animate.css": "^4.1.1",
+    "axios": "^1.7.2",
+    "codemirror": "^5.61.1",
+    "copy-to-clipboard": "^3.3.1",
     "core-js": "^3.34.0",
+    "crypto-js": "^4.1.1",
+    "highlight.js": "^10.7.2",
+    "insert-text-at-cursor": "^0.3.0",
     "jinrishici": "^1.0.6",
+    "katex": "^0.13.11",
+    "markdown-it": "^12.3.2",
+    "markdown-it-attrs": "^4.0.0",
+    "markdown-it-container": "^3.0.0",
+    "md-editor-v3": "^4.13.1",
+    "mermaid": "^10.6.1",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "prismjs": "^1.23.0",
+    "resize-observer-polyfill": "^1.5.1",
     "roboto-fontface": "*",
     "vue": "^3.3.0",
-    "vuetify": "^3.0.0"
+    "vuetify": "^3.0.0",
+    "xss": "^1.0.9"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
